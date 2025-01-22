@@ -1,0 +1,32 @@
+.shop-container {
+  padding: 20px;
+}
+
+.shop-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  background-color: black;
+  color: #ffffff; /* Match text color to card */
+}
+
+.shop-product-list .product-card {
+  border: 1px solid #002fff80;
+  border-radius: 8px;
+  box-shadow: 0 3px 3px rgba(34, 0, 255, 0.212);
+  padding: 20px;
+  background-color: #000000; /* Adjust background color */
+  color: #eee; /* Adjust text color */
+}
+
+.shop-product-list .product-card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #ffffff; /* Match text color to card */
+}
+
+.shop-product-list .product-card p {
+  font-size: 16px;
+  color: #888888; /* Adjust text color */
+  margin-bottom: 10px;
+}

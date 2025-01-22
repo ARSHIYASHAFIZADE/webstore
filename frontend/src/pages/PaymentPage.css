@@ -1,0 +1,122 @@
+.payment-container-payment {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 500px;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.payment-title-payment {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.payment-form-payment {
+  display: flex;
+  flex-direction: column;
+  width: 99%;
+}
+
+.form-group-payment {
+  margin-bottom: 15px;
+}
+
+.form-group-payment label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-group-payment input {
+  width: 96%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.next-button-payment {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.next-button-payment:hover {
+  background-color: #0056b3;
+}
+
+
+.confirmation-payment {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.confirmation-payment h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.confirmation-payment p {
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.confirmation-payment button {
+  margin-top: 20px;
+}
+
+.confirmation-payment .back-button-payment {
+  margin-right: 10px;
+}
+
+.back-button-payment,
+.submit-button-payment {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.back-button-payment {
+  background-color: #dc3545;
+}
+
+.back-button-payment:hover {
+  background-color: #c82333;
+}
+
+.submit-button-payment {
+  background-color: #28a745;
+}
+
+.submit-button-payment:hover {
+  background-color: #218838;
+}
